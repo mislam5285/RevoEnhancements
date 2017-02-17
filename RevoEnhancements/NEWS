@@ -1,0 +1,68 @@
+RevoEnhancements 0.0-09 (Release date: 29/05/2014)
+================
+  
+New functionality
+* None
+
+Bug fixes:
+* Documentation improvements in rxAIC
+
+General improvements:
+* Updated documentation using roxygen2 version 4
+
+
+RevoEnhancements 0.0-08 (Release date: 22/11/2013)
+================
+  
+New functionality
+* None
+
+Bug fixes:
+* Fixed error in calculation of kurtosis (G2 formulation)
+
+General improvements:
+* Added additional unit tests
+
+RevoEnhancements 0.0-07 (Release date: 21/11/2013)
+================
+  
+New functionality
+* rxMoments to calculate statistical moments, including skewness and kurtosis
+
+
+RevoEnhancements 0.0-06 (Release date: 15/10/2013)
+================
+  
+New functionality
+* rxUnique to return unique values in columns
+
+
+RevoEnhancements 0.0-05 (Release date: 24/09/2013)
+================
+  
+New functionality
+* None
+
+Changes
+* Added vignette for visualiztion of decision trees (rxDTree) and forests (rxDForest)
+
+RevoEnhancements 0.0-04 (Release date: 23/09/2013)
+================
+  
+New functionality
+* New plot method for rxDTree, allowing plotting of partition trees in rxDTree as well as rxDForest objects
+
+
+RevoEnhancements 0.0-03 (Release date: 27/08/2013)
+================
+  
+New functionality
+* `rxAIC()` to compute AIC score
+* `rxLinPredError()` to compute MSE, MAPE, MSE and MSWD
+
+RevoEnhancements 0.0-02 (Release date: 20/08/2013)
+================
+  
+Changes:
+* Changed `rxF1()` to `rxF1score()`
+* Added unit tests for `rxF1score()`

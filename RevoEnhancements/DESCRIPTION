@@ -1,0 +1,27 @@
+Package: RevoEnhancements
+Author: Derek McCrae Norton, Andrie de Vries
+Authors@R: c(person("Andrie", "de Vries", role=c("aut"),
+    email="andrie@revolutionanalytics.com"), person(c("Derek", "McCrae"),
+    "Norton", role = c("aut", "cre"),
+    email="derek.norton@revolutionanalytics.com"))
+License: Apache License (== 2.0)
+Title: Selected enhancements to Revolution Analytics RevoScaleR
+Copyright: Revolution Analytics
+LazyData: true
+LazyLoad: true
+Description: This is a set of tools to enchance and expand RevoScaleR.
+Version: 0.0-09
+Date: 2014-05-19
+URL: https://github.com/RevoEnchancements/RevoEnhancements
+VignetteBuilder: knitr
+Roxygen: list(wrap = FALSE)
+Imports:
+    RevoScaleR,
+    hexbin,
+    rpart
+Suggests:
+    ggplot2,
+    mlbench,
+    testthat,
+    knitr,
+    e1071
